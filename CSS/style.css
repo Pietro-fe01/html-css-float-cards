@@ -79,6 +79,10 @@ main div.info-team-card{
     top: 15px;
 }
 
+Main div.team-card span{
+    display: block;
+}
+
 main div.info-team-card a{
     color: #4dccf2;
     text-decoration: none;
