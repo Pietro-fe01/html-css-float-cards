@@ -21,5 +21,21 @@
 ---------------*/
 body {
     font-family: 'Fredoka', sans-serif;
+}
+
+main div.container h1{
+    text-align: center;
+    padding: 20px 20px 40px 20px;
+    font-size: 35px;
     color: #E53170;
+}
+
+/*-------------
+      MAIN
+---------------*/
+main div.container{
+    max-width: 1150px;
+    margin: auto;
+    min-height: 500px;
+    padding: 10px;
 }
