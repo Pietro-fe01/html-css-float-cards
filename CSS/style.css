@@ -21,6 +21,7 @@
 ---------------*/
 body {
     font-family: 'Fredoka', sans-serif;
+    background-color: lightgray;
 }
 
 main section.container h1{
@@ -41,7 +42,8 @@ main section.container{
     max-width: 1150px;
     margin: auto;
     min-height: 500px;
-    
+    background-color: white;
+    margin: 20px auto;
 }
 
 main p.description{
@@ -55,12 +57,16 @@ main div.team-card{
     background-color: black;
     float: left;
     margin: 0px 20px 50px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 5px #888888;
 }
 
 main div img.img-cards{
     width: 100px;
     height: 100px;
     float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 main div.info-team-card{
