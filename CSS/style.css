@@ -23,7 +23,7 @@ body {
     font-family: 'Fredoka', sans-serif;
 }
 
-main div.container h1{
+main section.container h1{
     text-align: center;
     padding: 20px 20px 40px 20px;
     font-size: 35px;
@@ -33,7 +33,7 @@ main div.container h1{
 /*-------------
       MAIN
 ---------------*/
-main div.container{
+main section.container{
     max-width: 1150px;
     margin: auto;
     min-height: 500px;
