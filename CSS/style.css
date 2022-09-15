@@ -37,5 +37,18 @@ main section.container{
     max-width: 1150px;
     margin: auto;
     min-height: 500px;
-    padding: 10px;
+    
+}
+
+main p.description{
+    padding: 0px 5px 50px 5px;
+    text-align: center;
+}
+
+main div.team-card{
+    width: calc(100%/3 - 40px);
+    height: 110px;
+    background-color: black;
+    float: left;
+    margin: 0px 20px 50px 20px;
 }
