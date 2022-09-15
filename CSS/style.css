@@ -1,0 +1,25 @@
+/*-------------
+     RESET
+---------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------
+     COMMON
+---------------*/
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*-------------
+   TYPOGRAPHY
+---------------*/
+body {
+    font-family: 'Fredoka', sans-serif;
+    color: #E53170;
+}
