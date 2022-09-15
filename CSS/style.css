@@ -41,7 +41,6 @@ Main div.team-card h3, Main div.team-card span{
 main section.container{
     max-width: 1150px;
     margin: auto;
-    min-height: 500px;
     background-color: white;
     margin: 20px auto;
 }
@@ -74,9 +73,7 @@ main div img.img-cards{
 }
 
 main div.info-team-card{
-    position: relative;
-    left: 15px;
-    top: 15px;
+    float: left;
 }
 
 Main div.team-card span{
@@ -86,5 +83,8 @@ Main div.team-card span{
 main div.info-team-card a{
     color: #4dccf2;
     text-decoration: none;
-    display:inline-block;
+}
+
+main div.info-team-card h3, main div.info-team-card span, main div.info-team-card a{
+    margin: 8px 20px;
 }
