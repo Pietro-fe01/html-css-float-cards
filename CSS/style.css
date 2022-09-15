@@ -30,6 +30,10 @@ main section.container h1{
     color: #E53170;
 }
 
+Main div.team-card h3, Main div.team-card span{
+    color: white;
+}
+
 /*-------------
       MAIN
 ---------------*/
@@ -47,8 +51,25 @@ main p.description{
 
 main div.team-card{
     width: calc(100%/3 - 40px);
-    height: 110px;
+    height: 100px;
     background-color: black;
     float: left;
     margin: 0px 20px 50px 20px;
+}
+
+main div img.img-cards{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+main div.info-team-card{
+    padding: 20px;
+    position: relative;
+    left: 15px;
+}
+
+main div.info-team-card a{
+    color: #4dccf2;
+    text-decoration: none;
 }
