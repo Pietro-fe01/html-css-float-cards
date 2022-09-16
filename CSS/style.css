@@ -52,7 +52,6 @@ main p.description{
 
 main div.team-card{
     width: calc(100%/3 - 40px);
-    height: 100px;
     background-color: black;
     float: left;
     margin: 0px 20px 50px 20px;
@@ -74,6 +73,7 @@ main div img.img-cards{
 
 main div.info-team-card{
     float: left;
+    width: calc(100% - 100px);
 }
 
 Main div.team-card span{
